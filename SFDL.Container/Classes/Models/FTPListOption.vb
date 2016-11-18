@@ -34,6 +34,7 @@
     ''' <summary>
     ''' Use the NLST command instead of LIST for a reliable file listing
     ''' </summary>
+    <Xml.Serialization.XmlEnum("default")>
     NameList = 16
     ''' <summary>
     ''' Combines the ForceList and NameList flags
@@ -54,4 +55,6 @@
     ''' support this feature.
     ''' </summary>
     Recursive = 128
+    <Xml.Serialization.XmlEnum("")>
+    DefaultAlias = NameList
 End Enum

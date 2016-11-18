@@ -6,5 +6,8 @@
     ''' <summary>
     ''' Binary transfer
     ''' </summary>
+    <Xml.Serialization.XmlEnum("default")>
     Binary
+    <Xml.Serialization.XmlEnum("")>
+    DefaultAlias = Binary
 End Enum
